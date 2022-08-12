@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Josefin+Sans:wght@200&family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather+Sans:wght@400;600;800&family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300;400&family=Poppins&family=Tiro+Devanagari+Hindi&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 70px;
+    background-color: #fff;
+}
+
+header p {
+    position: absolute;
+    top: 1.9%;
+    left: 40%;
+    font-size: 1.1em;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+header img {
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    width: 60px;
+    height: 60px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #fff;
+    padding: 9px;
+    border-radius: 20px;
+    background: rgba(56, 8, 159, 0.8);
+}
+
+nav ul li a:hover {
+    background-color: #000;
+    border: solid 2px #000;
+    border-radius: 25px;
+    padding: 9px;
+    padding-bottom: 15px;
+    color: #FED8B1;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://pic.digital/wp-content/uploads/2020/11/tendances-webdesign-2021_pic-digital.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container h1 {
+    padding-top: 40px;
+    margin-left: 70px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 2.6em;
+}
