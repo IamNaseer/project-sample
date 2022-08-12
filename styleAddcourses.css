@@ -1,0 +1,52 @@
+.addCourses{
+position: absolute;
+top: 33%;
+left: 29%;
+}
+.addCourses{
+    padding: 15px;
+    padding-left: 40px;
+    height: 33%;
+    width: 30%;
+    background-color: rgb(38, 0, 255);
+    border: 2px solid gray;
+    border-radius: 7px;
+}
+.box1{
+    padding: 12px;
+    margin-bottom: 12px;
+}
+.box2{
+    padding: 12px;
+  
+}
+.add a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 7px;
+    position: relative;
+    top: 42px;
+    border: 2px solid wheat;
+
+}
+#addf{
+    position: relative;
+    left: 5px;
+}
+h1{
+    position: relative;
+    left: 40%;
+    color: darkblue;
+    /* text-decoration:underline; */
+}
+#addv:hover{
+background-color: antiquewhite;
+color: black;
+
+}
+#addf:hover{
+    background-color: antiquewhite;
+    color: black;
+
+    }
