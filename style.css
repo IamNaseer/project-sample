@@ -1,75 +1,224 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Josefin+Sans:wght@200&family=Poppins:wght@300;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Merriweather+Sans:wght@400;600;800&family=Oleo+Script+Swash+Caps&family=Open+Sans:wght@300;400&family=Poppins&family=Tiro+Devanagari+Hindi&display=swap');
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+h1{
+  font-style: italic;
+  position:relative;
+  left:550px
+}
+h2{
+  font-style: italic;
+  position:relative;
+  left:600px
+}
+.login_box{
+  position:relative;
+  top:50px;
+  left:580px;
+  width:350px;
+  height:300px;
+  background-color:rgba(56,8,159,0.8);
+  padding:10px;
+  border-radius: 20px;
+}
+.fromLogin{
+  padding:50px;
+}
+input{
+  padding:5px;
+}
+.userid{
+  padding:15px;
+  position: relative;
+  right:7px;
+   font-weight:700;
+   color:rgb(253, 253, 253);
+
+}
+.pass{
+  font-weight: 700;
+  position: relative;
+  left:7px;
+  color:rgb(253, 253, 253);
+}
+.but1{
+  position: relative;
+  top:50px;
+  left:200px;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(253, 253, 253);
+  border-radius: 20px;
+  background-color:rgb(74, 40, 147);
+  padding: 6px;
 }
 
-header {
-    height: 70px;
-    background-color: #fff;
+/*.......................................sign_up css part.............................*/
+.Register_box{
+  position:relative;
+  top:50px;
+  left:580px;
+  width:350px;
+  height:300px;
+  background-color:rgba(56,8,159,0.8);
+  padding:10px;
+  border-radius: 20px;
+}
+.fromregister{
+  padding:50px;
+  position: relative;
+  bottom:50px;
+  left:30px
+}
+.Name{
+  padding:10px;
+  position: relative;
+  right:30px;
+   font-weight:700;
+   color:rgb(253, 253, 253);
+
+}
+.Email{
+  padding:10px;
+  font-weight: 700;
+  position: relative;
+  right:30px;
+  color:rgb(253, 253, 253);
+}
+.radio{
+  padding: 10px;
+}
+.regbut{
+  position: relative;
+  top:20px;
+  left:180px;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(253, 253, 253);
+  border-radius: 20px;
+  background-color:rgb(74, 40, 147);
+  padding: 6px;
+}
+/*.......................Student Register From css.................................*/
+.Student_box{
+  position:relative;
+  top:50px;
+  left:580px;
+  width:400px;
+  height:310px;
+  background-color:rgba(56,8,159,0.8);
+  padding:10px;
+  border-radius: 20px;
+}
+.fromStudent{
+  padding:30px;
+}
+.studName{
+  padding:10px;
+  position: relative;
+  left:38px;
+   font-weight:700;
+   color:rgb(253, 253, 253);
+
+}
+.studEmail{
+  font-weight: 700;
+  position: relative;
+  left:47px;
+  color:rgb(253, 253, 253);
+}
+.studPhone{
+  padding:10px;
+  font-weight: 700;
+  position: relative;
+  right:10px;
+  color:rgb(253, 253, 253);
+}
+.studYear{
+  padding:10px;
+  font-weight: 700;
+  position: relative;
+  right:10px;
+  color:rgb(253, 253, 253);
+}
+.studBranch{
+  padding:10px;
+  font-weight: 700;
+  position: relative;
+  right:10px;
+  color:rgb(253, 253, 253); 
+}
+.studBut{
+  position: relative;
+  top:20px;
+  left:200px;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(253, 253, 253);
+  border-radius: 20px;
+  background-color:rgb(74, 40, 147);
+  padding: 6px;
 }
 
-header p {
-    position: absolute;
-    top: 1.9%;
-    left: 40%;
-    font-size: 1.1em;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
+/*..........................Tutor Register From..............................*/
+.Tutor_box{
+  position:relative;
+  top:50px;
+  left:580px;
+  width:400px;
+  height:310px;
+  background-color:rgba(56,8,159,0.8);
+  padding:10px;
+  border-radius: 20px;
 }
-
-header img {
-    position: absolute;
-    top: 1%;
-    left: 2%;
-    width: 60px;
-    height: 60px;
+.fromTutor{
+  padding:30px;
 }
+.tutName{
+  padding:10px;
+  position: relative;
+  left:38px;
+   font-weight:700;
+   color:rgb(253, 253, 253);
 
-nav ul {
-    display: flex;
-    justify-content: flex-end;
 }
-
-nav ul li {
-    list-style-type: none;
-    padding: 20px;
+.tutEmail{
+  font-weight: 700;
+  position: relative;
+  left:47px;
+  color:rgb(253, 253, 253);
 }
-
-nav ul li a {
-    text-decoration: none;
-    font-size: 16px;
-    color: #fff;
-    font-family: 'Poppins', sans-serif;
-    border: 1px solid #fff;
-    padding: 9px;
-    border-radius: 20px;
-    background: rgba(56, 8, 159, 0.8);
+.tutPhone{
+  padding:10px;
+  font-weight: 700;
+  position: relative;
+  right:10px;
+  color:rgb(253, 253, 253);
 }
-
-nav ul li a:hover {
-    background-color: #000;
-    border: solid 2px #000;
-    border-radius: 25px;
-    padding: 9px;
-    padding-bottom: 15px;
-    color: #FED8B1;
+.tutDepart{
+  padding:10px;
+  font-weight: 700;
+  position: relative;
+  right:10px;
+  color:rgb(253, 253, 253);
 }
-
-.container {
-    height: 100vh;
-    width: 100%;
-    background-image: url(https://pic.digital/wp-content/uploads/2020/11/tendances-webdesign-2021_pic-digital.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+.tutbio{
+  padding:10px;
+  font-weight: 700;
+  position: relative;
+  right:10px;
+  color:rgb(253, 253, 253); 
 }
-
-.container h1 {
-    padding-top: 40px;
-    margin-left: 70px;
-    font-family: 'Poppins', sans-serif;
-    color: #fff;
-    font-size: 2.6em;
+.tutBut{
+  position: relative;
+  top:20px;
+  left:200px;
+  text-decoration: none;
+  font-weight: 700;
+  color: rgb(253, 253, 253);
+  border-radius: 20px;
+  background-color:rgb(74, 40, 147);
+  padding: 6px;
 }
